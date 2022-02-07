@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden;
+}
+
+.root {
+  background-size: cover;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url(/Netflix\ back\ img.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-logo {
+  height: 50px;
+}
+
+.btn-sign-in {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.main-container {
+  width: 100%x;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container{
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.main-title{
+font-size: 3.2em;
+margin-bottom: 15px;
+}
+
+.sub-title{
+font-size: 1.5em;
+margin-bottom: 30px;
+}
+
+.main-para{
+font-size: 1,2em;
+}
+
+.main-email{
+    width: 50%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-email{
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+.get-started{
+    cursor: pointer;
+    padding: 20px 30px;
+    height: fit-content;
+    background-color: red;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.get-started:hover{
+    background-color: rgb(170, 1, 1); 
